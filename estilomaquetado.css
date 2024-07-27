@@ -1,0 +1,57 @@
+/*Modelo de cajas y elementos vistos anteriormente*/
+div{
+	margin: 30px;
+	border-radius: 25px;
+	border-style: dotted;
+	border-color: red;
+	padding: 10px;
+	background-color: pink;
+}
+
+/*Dimensiones y rangos de dimensiones*/
+#modificadimensiones{
+	background-color: green;
+	max-width: 20%;
+	min-width: 5%;
+	max-height: 30%;
+	min-height: 10%;
+}
+/*Zonas de un elementos con diferentes*/
+.modificacionesvarias{
+	border-top: 6px;
+	border-top-color: blue;
+	border-bottom: 8px;
+	border-bottom-color: red;
+	background-color: yellow;
+	border-right-style: dashed;
+	border-left-style: double;
+	height: 20%;
+	border-style: dotted dashed solid dashed;
+}
+
+#modificatamaño{
+	width: 10%;
+	height: 10%;
+	display: inline-block;
+}
+#modificatamaño2{
+	width: 50%;
+	height: 60%;
+	display: inline-block;
+}
+
+.grid-contenedor{
+	background-color: yellow;
+	border-style: solid;
+	display: grid;
+	grid-template-rows: 20% 20% 20%;
+	grid-template-columns: 20% 20% 10%;
+	grid-gap: 5px;
+}
+
+.box{
+	display: flex;
+	justify-content: space-between;
+}
+
+

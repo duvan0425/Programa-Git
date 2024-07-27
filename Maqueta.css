@@ -1,0 +1,66 @@
+header{
+	background-color: yellow;
+	text-align: center;
+	font: 100px Arial bold;
+	text-decoration-color: inherit;
+	color: red;
+}
+
+#menu a
+{
+	display: block;
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+	width: 90%;
+
+}
+
+#menu a:hover{
+	background: yellow;
+}
+
+#menu a:visited{
+	color: red;
+}
+
+div{
+	border: double blue 15px;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 50px;
+}
+
+article{
+	background-color: pink;
+	text-align: justify; /*left-right-center*/
+	font-weight: bold; /*normal-bolder-lighter*/
+	display:inline-block;
+	width: 50%;
+	height: 10%;
+	margin: 5px;
+	border:dashed;
+}
+
+aside{
+	display: block;
+	background-color: yellow;
+	float: right;
+	width: 47%;
+	height: 130px;
+	margin:5px;
+	text-align: center;
+	border:double red; 
+}
+
+aside img{
+	width: 20%;
+	height: 60px;
+}
+
+footer{
+	background-color: blue;
+	height: 100px;
+	border:dotted 20 px;
+	text-align: center;
+}
